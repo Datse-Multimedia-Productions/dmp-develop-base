@@ -13,10 +13,13 @@
  * 
  */
 
-require-once(view/header.php);
+require_once("view/header.php");
 echo "
 		<h1>DMP Development</h1>
 		<p>If you're here and seeing this, you've got here too soon</p>
+		<h2>PHP Version</h2>
+		<p>This will only show up if the PHP version is enabled.</p>
+		<p>Even if this is showing up, it's still too early</p>
 ";
-require-once(view/footer.php);
+require_once("view/footer.php");
 ?>
