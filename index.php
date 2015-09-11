@@ -14,12 +14,24 @@
  */
 
 require_once("view/header.php");
-echo "
+echo '
 		<h1>DMP Development</h1>
-		<p>If you're here and seeing this, you've got here too soon</p>
+		<p>If you\'re here and seeing this, you\'ve got here too soon</p>
+
 		<h2>PHP Version</h2>
 		<p>This will only show up if the PHP version is enabled.</p>
-		<p>Even if this is showing up, it's still too early</p>
-";
+		<p>Even if this is showing up, it\'s still too early</p>
+
+		<h2>Issue/Bug trackers</h2>
+		<p>We currently have 3 issue/bug trackers which we are using to keep track of the issues/bugs which we see as they develop on this site.  They are:
+
+		<ul>
+			<li><a href="http://bugzilla.dmp-develop.com/buglist.cgi?component=Base&list_id=19&product=DMP%20Develop&resolution=---">Bugzilla</a></li>
+			<li><a href="http://trac.dmp-develop.com/report/1">Trac</a></li>
+			<li><a href="https://github.com/Datse-Multimedia-Productions/dmp-develop-base/issues">GitHub</a></li>
+		</ul>
+
+
+';
 require_once("view/footer.php");
 ?>
